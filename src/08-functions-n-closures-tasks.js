@@ -171,7 +171,7 @@ function getIdGeneratorFunction(startFrom) {
 
   return () => {
     elem += 1;
-    
+
     return elem;
   };
 }
